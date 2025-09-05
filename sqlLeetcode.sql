@@ -23,3 +23,9 @@
     SELECT tweet_id 
     FROM Tweets 
     WHERE LENGTH(content) > 15;
+
+-- 1378. Replace Employee ID With The Unique Identifier
+    SELECT unique_id , name 
+    FROM Employees  
+    Emp LEFT JOIN EmployeeUNI uni 
+    ON Emp.id =  uni.id;
