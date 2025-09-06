@@ -29,3 +29,9 @@
     FROM Employees  
     Emp LEFT JOIN EmployeeUNI uni 
     ON Emp.id =  uni.id;
+
+-- 1068. Product Sales Analysis I
+    SELECT product_name, year, price 
+    FROM Sales 
+    INNER JOIN Product 
+    ON Sales.product_id = Product.product_id;
