@@ -35,3 +35,11 @@
     FROM Sales 
     INNER JOIN Product 
     ON Sales.product_id = Product.product_id;
+
+--  1581. Customer Who Visited but Did Not Make Any Transactions
+    SELECT customer_id , COUNT(customer_id) as count_no_trans
+    FROM Visits
+    LEFT join Transactions 
+    ON visits.visit_id = transactions.visit_id
+    WHERE transactions.transaction_id is NULL
+    GROUP BY visits.customer_id
