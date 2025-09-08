@@ -43,3 +43,11 @@
     ON visits.visit_id = transactions.visit_id
     WHERE transactions.transaction_id is NULL
     GROUP BY visits.customer_id
+
+
+-- 197. Rising Temperature
+    SELECT T.id
+    FROM Weather T
+    JOIN Weather Y
+    ON T.recordDate = Y.recordDate + INTERVAL '1 day'
+    WHERE T.temperature > Y.temperature;
