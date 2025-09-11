@@ -60,11 +60,20 @@
    WHERE a1.activity_type = 'start' AND a2.activity_type = 'end'
    GROUP BY a1.machine_id;
 
-
 -- 577. Employee Bonus
+   SELECT name , bonus
+   FROM Employee E 
+   LEFT JOIN Bonus B 
+   ON E.empId = B.empId
+   WHERE B.bonus IS NULL OR B.bonus < 1000;
 
-SELECT name , bonus
-FROM Employee E 
-LEFT JOIN Bonus B 
-ON E.empId = B.empId
-WHERE B.bonus IS NULL OR B.bonus < 1000;
+-- 1280. Students and Examinations
+   SELECT s.student_id, s.student_name, sb.subject_name, COUNT(ex.subject_name) AS  attended_exams
+   FROM Students s
+  JOIN Subjects sb
+  ON 1=1   
+  LEFT JOIN Examinations ex
+  ON ex.student_id = s.student_id 
+  AND ex.subject_name = sb.subject_name
+  GROUP BY s.student_id, s.student_name, sb.subject_name
+  ORDER BY s.student_id, sb.subject_name;
