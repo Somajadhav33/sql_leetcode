@@ -77,3 +77,12 @@
   AND ex.subject_name = sb.subject_name
   GROUP BY s.student_id, s.student_name, sb.subject_name
   ORDER BY s.student_id, sb.subject_name;
+
+-- 570. Managers with at Least 5 Direct Reports
+   SELECT name 
+   FROM Employee 
+   WHERE id IN (
+     SELECT managerId 
+     FROM Employee 
+     GROUP BY managerId 
+     HAVING COUNT(*) >= 5)
