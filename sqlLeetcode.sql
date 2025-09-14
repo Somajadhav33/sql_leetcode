@@ -88,10 +88,15 @@
      HAVING COUNT(*) >= 5)
 
 -- 1934. Confirmation Rate
- SELECT s.user_id, 
+  SELECT s.user_id, 
     ROUND(AVG(CASE WHEN c.action = 'confirmed' THEN 1 ELSE 0 END), 2) AS       confirmation_rate
- FROM Signups s
- LEFT JOIN Confirmations c
- ON s.user_id = c.user_id
- GROUP BY s.user_id;
+  FROM Signups s
+  LEFT JOIN Confirmations c
+  ON s.user_id = c.user_id
+  GROUP BY s.user_id;
 
+-- 620. Not Boring Movies
+  SELECT id, movie, description, rating
+  FROM Cinema
+  WHERE id % 2 != 0 AND description != 'boring'
+  ORDER BY rating DESC;
