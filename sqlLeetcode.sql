@@ -100,3 +100,10 @@
   FROM Cinema
   WHERE id % 2 != 0 AND description != 'boring'
   ORDER BY rating DESC;
+
+-- 1633. Percentage of Users Attended a Contest
+  SELECT contest_id, 
+    ROUND(COUNT(r.user_id)*100.0/(SELECT count(*) FROM Users),2) AS percentage
+  FROM Register r
+  GROUP BY contest_id
+  ORDER BY percentage DESC, contest_id ASC;
