@@ -129,3 +129,12 @@ SELECT TO_CHAR(trans_date, 'YYYY-MM') as month, country,
     SUM(amount) as trans_total_amount, SUM(CASE WHEN state='approved' then amount else 0 end) as approved_total_amount
 FROM Transactions
 group by country, month
+
+-- 1174. Immediate Food Delivery II
+SELECT ROUND(
+    100.0 * COUNT(CASE WHEN order_date = customer_pref_delivery_date THEN 1 END)
+        / COUNT(*), 2) AS immediate_percentage
+FROM Delivery
+WHERE (customer_id, order_date) IN 
+        (SELECT customer_id, MIN(order_date) FROM Delivery GROUP BY customer_id);
+
