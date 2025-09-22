@@ -146,3 +146,26 @@ WHERE (player_id , event_date) IN (
     FROM Activity
     GROUP BY player_id
 )
+
+-- 2356. Number of Unique Subjects Taught by Each Teacher
+SELECT teacher_id , count(distinct subject_id) as cnt
+FROM Teacher
+GROUP BY teacher_id
+
+$ cat week
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+
+
+
+cat > My_college
+My college name is CIMDR Collage, Sangli.
+I love programming.
+The college has a big library.
+Friends in college are the best part.
+
