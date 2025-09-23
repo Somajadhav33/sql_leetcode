@@ -152,6 +152,12 @@ SELECT teacher_id , count(distinct subject_id) as cnt
 FROM Teacher
 GROUP BY teacher_id
 
+-- 1141. User Activity for the Past 30 Days I
+SELECT activity_date AS day , count(distinct user_id) as active_users 
+FROM Activity 
+WHERE  activity_date BETWEEN DATE '2019-07-27' - INTERVAL '29 DAYS' AND DATE '2019-07-27'
+GROUP BY activity_date
+
 $ cat week
 Sunday
 Monday
