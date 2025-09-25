@@ -168,6 +168,13 @@ WHERE(product_id, year) IN (
     GROUP BY product_id
 )
 
+-- 596. Classes With at Least 5 Students
+
+SELECT class
+FROM Courses 
+GROUP BY class
+HAVING COUNT(student) >= 5
+
 
 $ cat week
 Sunday
@@ -185,4 +192,21 @@ My college name is CIMDR Collage, Sangli.
 I love programming.
 The college has a big library.
 Friends in college are the best part.
+#include <bits/stdc++.h>
+using namespace std;
 
+void computeResults(float num1, float num2) {
+    cout << fixed << setprecision(2) << num1 * num2 << endl;
+    if (num2 != 0) {
+        cout << fixed << setprecision(2) << num1 / num2 << endl;
+    } else {
+        cout << "Undefined" << endl;
+    }
+}
+
+int main() {
+    float num1, num2;
+    cin >> num1 >> num2;
+    computeResults(num1, num2);
+    return 0;
+}
