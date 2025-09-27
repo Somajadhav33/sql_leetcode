@@ -182,6 +182,14 @@ FROM Followers
 GROUP BY user_id
 ORDER BY user_id 
 
+-- 619. Biggest Single Number
+
+select case when count(*) = 1 then num else null end as num
+from MyNumbers 
+group by num
+order by num DESC nulls last
+limit 1
+
 
 
 $ cat week
