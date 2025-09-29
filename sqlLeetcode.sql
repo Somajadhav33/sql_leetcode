@@ -183,14 +183,17 @@ GROUP BY user_id
 ORDER BY user_id 
 
 -- 619. Biggest Single Number
-
 select case when count(*) = 1 then num else null end as num
 from MyNumbers 
 group by num
 order by num DESC nulls last
 limit 1
 
-
+-- 1045. Customers Who Bought All Products
+SELECT customer_id
+FROM Customer
+GROUP BY customer_id
+HAVING COUNT(distinct product_key) = (SELECT COUNT(distinct product_key) FROM Product)
 
 $ cat week
 Sunday
