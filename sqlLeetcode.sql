@@ -195,6 +195,17 @@ FROM Customer
 GROUP BY customer_id
 HAVING COUNT(distinct product_key) = (SELECT COUNT(distinct product_key) FROM Product)
 
+-- 1731. The Number of Employees Which Report to Each Employee
+SELECT e1.employee_id  AS employee_id , 
+        MAX(e1.name) AS name, 
+        COUNT(e2.reports_to) AS reports_count, 
+        ROUND(AVG(e2.age)) AS average_age
+FROM Employees e1 JOIN Employees e2
+ON e1.employee_id = e2.reports_to
+GROUP BY e1.employee_id
+ORDER BY employee_id;
+
+
 $ cat week
 Sunday
 Monday
