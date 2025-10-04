@@ -239,3 +239,11 @@ where(product_id, change_date) in (
     from Products where change_date <= '2019-08-16'
     group by product_id
 )
+
+-- 1204. Last Person to Fit in the Bus
+
+SELECT person_name
+FROM(SELECT person_name,turn, sum(weight) OVER ( ORDER BY turn) AS 
+t_weight FROM Queue) as temp
+WHERE t_weight <= 1000
+ORDER BY turn DESC LIMIT 1;
