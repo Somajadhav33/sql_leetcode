@@ -247,3 +247,11 @@ FROM(SELECT person_name,turn, sum(weight) OVER ( ORDER BY turn) AS
 t_weight FROM Queue) as temp
 WHERE t_weight <= 1000
 ORDER BY turn DESC LIMIT 1;
+
+1907. Count Salary Categories
+
+SELECT 'Low Salary' AS category, COUNT(*) AS accounts_count FROM Accounts WHERE income < 20000 
+UNION
+SELECT 'Average Salary' AS category, COUNT(*) AS accounts_count FROM Accounts WHERE income >= 20000 AND income <= 50000
+UNION
+SELECT 'High Salary' AS category, COUNT(*) AS accounts_count FROM Accounts WHERE income > 50000 
