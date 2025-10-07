@@ -255,3 +255,33 @@ UNION
 SELECT 'Average Salary' AS category, COUNT(*) AS accounts_count FROM Accounts WHERE income >= 20000 AND income <= 50000
 UNION
 SELECT 'High Salary' AS category, COUNT(*) AS accounts_count FROM Accounts WHERE income > 50000 
+
+-- 626. Exchange Seats
+SELECT(
+    CASE WHEN id % 2 = 1 AND id = (select max(id) FROM Seat) THEN id
+    WHEN id % 2 = 1 THEN id + 1
+    WHEN id % 2 = 0 THEN id - 1
+    END) AS id, Student
+FROM Seat 
+ORDER BY id
+
+
+dhoop badi teej hai , kahi aasre ko peed bhi nahi hai
+din dhal raha hai , haath main roshni  nhi hai 
+pine wale bithe hai khali glass, shrabkhane mai shraabh bhi nahi hai
+ladkiya mangthi hai , makaan aur gadi , yaha badan dhkne ke liye accha kapda tak nahi 
+
+Tum kehate hoo ke kitabe uthaoo padhayii karo ,
+Kair ye to ab humse nahi ho raha , kya kare kahi dil nahi lag raha,
+Agar koi kitab ho jisme tumhare bare main likha ho to batao,
+Agar koi kitab ho jisme tumhare bare main likha ho to batao,
+Har panna hum raat lenge , har pangti hum dimag main chaap lenge
+Fir Koi humse aage ja ke dikhaye ,  to bataoo
+Kitabe hum haath main thaamenge,  lekin manjil tum bataoo ;
+
+
+तुम कहते हो किताबें उठाओ, पढ़ाई करो,
+कहाँ ये अब हमसे हो रहा, दिल कहीं नहीं लग रहा।
+अगर कोई किताब हो जिसमें तुम्हारे बारे में लिखा हो, बताओ,
+अगर कोई किताब हो जिसमें तुम्हारे बारे में लिखा हो, बताओ।
+किताब हाथ से नीचे नहीं रखेंगे, तुम बस बताओ।
