@@ -266,6 +266,36 @@ FROM Seat
 ORDER BY id
 
 
+-- 1341. Movie Rating
+
+WITH most_rated_by_user AS (
+    SELECT u.name As user_name , COUNT(*) as nums_rating
+    FROM MovieRating m
+    INNER JOIN users u
+    ON u.user_id = m.user_id
+    GROUP BY u.user_id, u.name
+    ORDER BY nums_rating DESC, u.name ASC
+    LIMIT 1
+),
+most_rated_movie  AS (
+    select m.title as movie_name, AVG(mr.rating) as nums_rating
+    FROM MovieRating mr
+    INNER JOIN movies m
+    ON mr.movie_id = m.movie_id
+    WHERE EXTRACT(YEAR FROM created_at) = 2020
+          AND EXTRACT(MONTH FROM created_at) = 2
+    GROUP BY mr.movie_id, m.title
+    ORDER BY nums_rating DESC, m.title ASC
+    LIMIT 1
+)
+
+SELECT user_name AS results
+FROM most_rated_by_user
+UNION ALL 
+SELECT movie_name AS results
+FROM most_rated_movie;
+
+
 dhoop badi teej hai , kahi aasre ko peed bhi nahi hai
 din dhal raha hai , haath main roshni  nhi hai 
 pine wale bithe hai khali glass, shrabkhane mai shraabh bhi nahi hai
