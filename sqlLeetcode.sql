@@ -315,3 +315,13 @@ Kitabe hum haath main thaamenge,  lekin manjil tum bataoo ;
 अगर कोई किताब हो जिसमें तुम्हारे बारे में लिखा हो, बताओ,
 अगर कोई किताब हो जिसमें तुम्हारे बारे में लिखा हो, बताओ।
 किताब हाथ से नीचे नहीं रखेंगे, तुम बस बताओ।
+
+
+Talluq chuut jane par jo mushkil main tuze dale 
+main apni aakh main asa koi aasu na chodunga
+
+
+Maiin chahata to hu ke uske sare kwab,  khwaishe  main puri karu
+use oo sari khushiya du jiski oo haqdaar hai ,
+per uski kuch kwayshe jo main kabhi puri nahi karna chahat,
+kyquki use use use bhul jana bhi ek kwwish hai
