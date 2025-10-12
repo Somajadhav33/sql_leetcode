@@ -374,14 +374,6 @@ class solution{
                 i++;
                 k++;
             }
-            while(j<=right){
-                new_arr[k]=arr[j];
-                j++;
-                k++;
-            }
-            
-            for(int c=0;c<n;c++){
-                arr[left+c]=new_arr[c];
-            }
+            whi
         }
 };
