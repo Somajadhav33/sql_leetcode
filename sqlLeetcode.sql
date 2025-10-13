@@ -335,6 +335,10 @@ SELECT accepter_id AS id FROM RequestAccepted)
 SELECT id, COUNT(id) AS num FROM temp GROUP BY id 
 ORDER BY num DESC LIMIT 1
 
+SELECT user_id , UPPER(SUBSTRING(name FROM 1 FOR 1)) || 
+                 LOWER(SUBSTRING(name FROM 2)) AS name 
+FROM Users ORDER BY user_id
+
 
  #include <bits/stdc++.h>
 using namespace std;
