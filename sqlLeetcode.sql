@@ -396,7 +396,7 @@ class solution{
             int i=low,j=high;
             while(i<j){
                 while(arr[i]<=arr[low]) i++;
-                while(arr[j]>arr[low]) j--;
+                while(arr[j]>arr[low])
                 if(i<j){
                     int temp=arr[i];
                     arr[i]=arr[j];
