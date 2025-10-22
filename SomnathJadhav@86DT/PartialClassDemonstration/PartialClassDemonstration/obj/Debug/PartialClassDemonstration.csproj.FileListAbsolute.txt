@@ -1,0 +1,5 @@
+D:\SomnathJadhav@86DT\PartialClassDemonstration\PartialClassDemonstration\bin\Debug\PartialClassDemonstration.exe.config
+D:\SomnathJadhav@86DT\PartialClassDemonstration\PartialClassDemonstration\bin\Debug\PartialClassDemonstration.exe
+D:\SomnathJadhav@86DT\PartialClassDemonstration\PartialClassDemonstration\bin\Debug\PartialClassDemonstration.pdb
+D:\SomnathJadhav@86DT\PartialClassDemonstration\PartialClassDemonstration\obj\Debug\PartialClassDemonstration.exe
+D:\SomnathJadhav@86DT\PartialClassDemonstration\PartialClassDemonstration\obj\Debug\PartialClassDemonstration.pdb

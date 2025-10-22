@@ -1,0 +1,6 @@
+D:\SomnathJadhav@86DT\OddEvenNumber\OddEvenNumber\bin\Debug\OddEvenNumber.exe.config
+D:\SomnathJadhav@86DT\OddEvenNumber\OddEvenNumber\bin\Debug\OddEvenNumber.exe
+D:\SomnathJadhav@86DT\OddEvenNumber\OddEvenNumber\bin\Debug\OddEvenNumber.pdb
+D:\SomnathJadhav@86DT\OddEvenNumber\OddEvenNumber\obj\Debug\OddEvenNumber.csprojResolveAssemblyReference.cache
+D:\SomnathJadhav@86DT\OddEvenNumber\OddEvenNumber\obj\Debug\OddEvenNumber.exe
+D:\SomnathJadhav@86DT\OddEvenNumber\OddEvenNumber\obj\Debug\OddEvenNumber.pdb

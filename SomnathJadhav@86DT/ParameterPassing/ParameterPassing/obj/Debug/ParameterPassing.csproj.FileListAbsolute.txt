@@ -1,0 +1,5 @@
+D:\SomnathJadhav@86DT\ParameterPassing\ParameterPassing\bin\Debug\ParameterPassing.exe.config
+D:\SomnathJadhav@86DT\ParameterPassing\ParameterPassing\bin\Debug\ParameterPassing.exe
+D:\SomnathJadhav@86DT\ParameterPassing\ParameterPassing\bin\Debug\ParameterPassing.pdb
+D:\SomnathJadhav@86DT\ParameterPassing\ParameterPassing\obj\Debug\ParameterPassing.exe
+D:\SomnathJadhav@86DT\ParameterPassing\ParameterPassing\obj\Debug\ParameterPassing.pdb
