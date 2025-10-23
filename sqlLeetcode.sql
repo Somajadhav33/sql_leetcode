@@ -585,4 +585,7 @@ public partial class _Default : System.Web.UI.Page
          }
         }
 };
-
+select email
+from Person
+GROUP BY email
+HAVING COUNT(email) > 1;
