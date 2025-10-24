@@ -351,9 +351,7 @@ class solution{
     private:
         void mergeSort(int arr[],int left,int right){
             if(left==right) return;
-            int mid=(left+right)/2;
-            mergeSort(arr,left,mid);
-            mergeSort(arr,mid+1,right);
+            int mid=(left+right)/
             merge(arr,left,mid,right);
         }
         
