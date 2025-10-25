@@ -357,7 +357,6 @@ class solution{
         
         void merge(int arr[],int left,int mid,int right){
             int n=right-left+1;
-            int new_arr[n];
             int i=left,j=mid+1,k=0;
             
             while(i<=mid && j<=right){
