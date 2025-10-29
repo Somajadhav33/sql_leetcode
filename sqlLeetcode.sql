@@ -602,7 +602,11 @@ from cte
 where people >=100
 and ((lead1>=100 and lead2 >=100) or (lag1>=100 and lag2 >=100) or (lag1>=100 and lead1 >=100) )
 
-
+select customer_number
+From Orders
+Group By customer_number
+ORDER BY COUNT(*) DESC
+LIMIT 1;
 
 
 Mere chup rehne ka sabab yeh bayaan hai,
