@@ -607,8 +607,6 @@ From Orders
 Group By customer_number
 ORDER BY COUNT(*) DESC
 LIMIT 1;
-
-
 Mere chup rehne ka sabab yeh bayaan hai,
 Naraz nahi tumse, bas dil bejaan hai,
 Jo rooth gaya, woh gulam kaisa — yeh soch aayi,
