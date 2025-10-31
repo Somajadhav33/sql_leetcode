@@ -611,3 +611,9 @@ Mere chup rehne ka sabab yeh bayaan hai,
 Naraz nahi tumse, bas dil bejaan hai,
 Jo rooth gaya, woh gulam kaisa — yeh soch aayi,
 Bas ek pal ko apni aukaat yaad aayi.
+
+
+select actor_id , director_id
+from ActorDirector 
+group by actor_id, director_id
+having count(director_id) >= 3;
