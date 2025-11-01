@@ -605,7 +605,7 @@ and ((lead1>=100 and lead2 >=100) or (lag1>=100 and lag2 >=100) or (lag1>=100 an
 select customer_number
 From Orders
 Group By customer_number
-ORDER BY COUNT(*) DESC
+ORDER BY COUNT(*) 
 LIMIT 1;
 Mere chup rehne ka sabab yeh bayaan hai,
 Naraz nahi tumse, bas dil bejaan hai,
