@@ -617,3 +617,22 @@ select actor_id , director_id
 from ActorDirector 
 group by actor_id, director_id
 having count(director_id) >= 3;
+
+
+Mera to tumhari fikar karna bhi tumhe galat lagta hai,
+Par tumse baat kiye bina dil nahi lagta mera.
+Kya tumhe सच me kabhi mehsoos nahi hua, Ki mujhe tumse mohabbat hai…?
+Ya phir tum bas yunhi, bewajah beparwah ban kar dikhawa karti ho?
+
+
+Mujhe tumse kuch kehna hai, dil  kuch poochta hai, izazat hai?
+Lamhe lamhe tumse baat karni hai , har baat tumhe batani hai, izazat hai?
+Rehna chahta hoon tumhaare kareeb, saaya ban kar, izazat hai?
+Sapno ko haqeeqat banani hai , Sari zindagi  tumhare sang bitani hai,  izazat hai?
+Duniya ko batana hai tuum sirf mere ho, ab to bolo.. izazat hai?
+
+
+Na koi hai jise main apna keh kar fikr karu,
+Na koi jo khamoshi me meri haalat samjhe।
+Log bahut milte hain, bheed kabhi kam nahi hoti,
+Par dil ki takleef… kisi ki nazar me kabhi parhti hi nahi।
