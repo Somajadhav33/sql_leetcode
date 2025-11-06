@@ -652,5 +652,28 @@ SUM(CASE WHEN month = 'Nov' THEN revenue END) AS Nov_Revenue,
 SUM(CASE WHEN month = 'Dec' THEN revenue END) AS Dec_Revenue
 FROM Department
 GROUP BY id;
+DOCKER AND KUBERNATICS
 
+SDLC - 
+    steps - 
+		packages +  dependencies + appllication level + external 
+I will provide you with a topic and a set of paragraphs on that topic. Your task is to create structured notes from this content that are clear, simple, and easy to understand. The notes should be organized in a format suitable for academic scoring around 12 to 16 marks.
+
+Please follow these instructions:
+
+Use only simple English; avoid difficult or complex words.
+
+Base the notes mostly on the content I provide, but if any important details relevant to the topic are missing in my paragraphs, you may add those details accurately and clearly.
+
+Structure the notes with clear headings, bullet points, and short sentences for easy reading.
+
+Include relevant examples from the text when needed to clarify points.
+
+If there are images related to the content, you may refer to and incorporate them briefly to support the notes.
+
+Ensure the notes cover all key ideas and important details to help answer exam questions well.
+
+Keep the notes concise but informative enough for good exam performance.
+
+When I provide the topic and paragraphs, respond with structured notes following these guidelines
 
