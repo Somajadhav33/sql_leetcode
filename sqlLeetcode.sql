@@ -681,3 +681,22 @@ When I provide the topic and paragraphs, respond with structured notes following
 SELECT stock_name, 
 (SUM(CASE WHEN operation = 'Sell' THEN price ELSE 0 END) - SUM (CASE WHEN operation = 'Buy' THEN price ELSE 0 END)) as capital_gain_loss 
 FROM Stocks GROUP BY stock_name
+
+
+react , tailwind , flowbite ⏳ 90-Minute Masterclass (that turned into 2.5 hours 😆)
+
+
+
+Yesterday, I attended the “Master React Basics in 90 Minutes” masterclass by WsCube Tech , and honestly, even though it stretched well past time, it was totally worth it!
+
+ 
+
+I already have a strong foundation in React, but this session was a great refresh and add-on. It helped me revisit the essentials and pick up a few new insights along the way.
+
+
+
+Always feels great to keep learning and sharpening the skills..
+
+
+
+#ReactJS #LearningJourney #WsCubeTech #FrontendDevelopment #KeepLearning
