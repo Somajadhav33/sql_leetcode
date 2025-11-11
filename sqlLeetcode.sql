@@ -700,3 +700,9 @@ Always feels great to keep learning and sharpening the skills..
 
 
 #ReactJS #LearningJourney #WsCubeTech #FrontendDevelopment #KeepLearning
+
+
+Hum khud andheron mein kho gaye hain,  
+Aur duniya humse roshni maang rahi hai।  
+Log humse unki zindagi sudhaarne ki baat karte hain,  
+Jabki humari apni zindagi uljhi padi hai।  
