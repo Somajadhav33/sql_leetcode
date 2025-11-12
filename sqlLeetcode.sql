@@ -706,3 +706,17 @@ Hum khud andheron mein kho gaye hain,
 Aur duniya humse roshni maang rahi hai।  
 Log humse unki zindagi sudhaarne ki baat karte hain,  
 Jabki humari apni zindagi uljhi padi hai।  
+
+
+
+
+Happy Birthday! 🎉 Dev karu tula sagl milo jaychi tu hakkdar aahes — khup success, khup peace, ani khup smile milot ya year madhe 💫
+
+Best wishes to an extremely beautiful, smart, genius, and kind classmate
+
+Gift dilo asta pan sutti mule chance miss zalla maza 😅
+
+
+
+1️⃣ “Tuza kahi vachaycha plan aahe ka sutti madhe?”
+2️⃣ “Asel tar sang, msg takun thev mala 😅 maza balance samplay aahe, msg nahi karu shakt 😌”
