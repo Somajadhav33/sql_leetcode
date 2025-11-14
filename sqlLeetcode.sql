@@ -607,6 +607,7 @@ From Orders
 Group By customer_number
 ORDER BY COUNT(*) 
 LIMIT 1;
+
 Mere chup rehne ka sabab yeh bayaan hai,
 Naraz nahi tumse, bas dil bejaan hai,
 Jo rooth gaya, woh gulam kaisa — yeh soch aayi,
@@ -657,7 +658,7 @@ DOCKER AND KUBERNATICS
 SDLC - 
     steps - 
 		packages +  dependencies + appllication level + external 
-I will provide you with a topic and a set of paragraphs on that topic. Your task is to create structured notes from this content that are clear, simple, and easy to understand. The notes should be organized in a format suitable for academic scoring around 12 to 16 marks.
+I will provide you with a topic and a set of paragraphs on that topic. Your taSymmetric and asymmetric key encryptionsk is to create structured notes from this content that are clear, simple, and easy to understand. The notes should be organized in a format suitable for academic scoring around 12 to 16 marks.
 
 Please follow these instructions:
 
