@@ -655,6 +655,11 @@ FROM Department
 GROUP BY id;
 DOCKER AND KUBERNATICS
 
+select *
+from users
+where email ~ '^[a-zA-Z0-9]+@[a-zA-Z]+\.com$'
+order by user_id;
+
 SDLC - 
     steps - 
 		packages +  dependencies + appllication level + external 
